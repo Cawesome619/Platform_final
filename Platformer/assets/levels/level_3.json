@@ -1,0 +1,248 @@
+{
+	"layout": {
+		"scale": 64,
+		"size": [30, 20],
+		"start": [1, 18],
+		"goal": [27, 16, 2, 4]
+	},
+
+	"physics": {
+		"gravity": 2,
+		"terminal_velocity": 36
+	},
+
+	"music": "assets/sounds/theme.ogg",
+
+	"background": {
+		"color": [137, 251, 249],
+		"image1": "assets/images/backgrounds/Sky.png",
+		"image2": "assets/images/backgrounds/Hills_2.png",
+		"parallax_speed1": 0.6,
+		"parallax_speed2": 0.3
+	},
+
+	"tiles": {
+		"midground": [
+			[16, 2, "Sign"],
+
+			[27.8, 17, "FlagTop"],
+			[27.8, 17, "FlagPole"],
+			[27.8, 17, "FlagPole"]
+
+		],
+
+		"main": [
+			[0, 19, "Grass"],
+			[1, 19, "Grass"],
+			[2, 19, "Grass"],
+			[3, 19, "Grass"],
+			[4, 19, "Grass"],
+			[5, 19, "Grass"],
+
+			[11, 19, "Grass"],
+			[12, 19, "Grass"],
+			[13, 19, "Grass"],
+			[14, 19, "Grass"],
+			[15, 19, "Grass"],
+			[16, 19, "Grass"],
+
+			[21, 19, "Grass"],
+			[22, 19, "Grass"],
+			[23, 19, "Grass"],
+			[24, 19, "Grass"],
+			[25, 19, "Grass"],
+			[26, 19, "Grass"],
+			[27, 19, "Grass"],
+			[28, 19, "Grass"],
+			[29, 19, "Grass"],
+			[30, 19, "Grass"],
+
+			[0, 0, "Platform"],
+			[0, 16, "Platform"],
+			[0, 15, "Platform"],
+			[0, 14, "Platform"],
+			[0, 13, "Platform"],
+
+			[1, 16, "Platform"],
+			[1, 15, "Platform"],
+			[1, 14, "Platform"],
+			[1, 13, "Platform"],
+			[1, 12, "Platform"],
+			[1, 11, "Platform"],
+			[1, 10, "Platform"],
+			[1, 9, "Platform"],
+			[1, 6, "Platform"],
+			[1, 6.5, "Platform"],
+			[1, 5, "Platform"],
+			[1, 4, "Platform"],
+			[1, 3, "Platform"],
+			[1, 2, "Platform"],
+			[1, 1, "Platform"],
+			[1, 0, "Platform"],
+
+			[5, 18, "Platform"],
+			[5, 17, "Platform"],
+			[5, 16, "Platform"],
+			[5, 15, "Platform"],
+			[5, 14, "Platform"],
+			[5, 13, "Platform"],
+			[5, 12, "Platform"],
+			[5, 11, "Platform"],
+			[5, 10, "Platform"],
+			[5, 9, "Platform"],
+			[5, 8, "Platform"],
+			[5, 7, "Platform"],
+			[5, 6, "Platform"],
+			[5, 5, "Platform"],
+			[5, 4, "Platform"],
+			[5, 3, "Platform"],
+			[6, 3, "Platform"],
+			[7, 3, "Platform"],
+			[8, 3, "Platform"],
+			[9, 3, "Platform"],
+			[10, 3, "Platform"],
+			
+			[10, 4, "Platform"],
+			[10, 5, "Platform"],
+			[10, 6, "Platform"],
+			[10, 7, "Platform"],
+			[10, 8, "Platform"],
+			[11, 8, "Platform"],
+			[12, 8, "Platform"],
+			[13, 8, "Platform"],
+			[14, 8, "Platform"],
+			[15, 8, "Platform"],
+			[16, 8, "Platform"],
+
+			[13, 4, "Platform"],
+			[13, 3, "Platform"],
+			[14, 3, "Platform"],
+			[15, 3, "Platform"],
+			[16, 3, "Platform"], 
+			
+			[17, 3, "Platform"],
+			[17, 4, "Platform"],
+			[17, 5, "Platform"],
+			[17, 6, "Platform"],
+			[17, 7, "Platform"],
+			[17, 8, "Platform"],
+
+			[7, 11, "Platform"],
+			[7, 10, "Platform"],
+			[7, 9, "Platform"],
+			[7, 8, "Platform"],
+			[7, 7, "Platform"],
+			[7, 6, "Platform"],			
+
+			[6, 17, "Platform"],
+			[7, 17, "Platform"],
+			[8, 17, "Platform"],
+			[9, 17, "Platform"],
+
+			[7, 12, "Platform"],
+			[8, 12, "Platform"],
+			[9, 12, "Platform"],
+			[10, 12, "Platform"],
+			[11, 12, "Platform"],
+			[12, 12, "Platform"],
+			[13, 12, "Platform"],
+			[14, 12, "Platform"],
+			[15, 12, "Platform"],
+			[16, 12, "Platform"],
+			[17, 12, "Platform"],
+			[18, 12, "Platform"],
+			[19, 12, "Platform"],
+
+			[20, 0, "Platform"],
+			[20, 1, "Platform"],
+			[20, 2, "Platform"],
+			[20, 3, "Platform"],
+			[20, 4, "Platform"],
+			[20, 5, "Platform"],
+			[20, 6, "Platform"],
+			[20, 7, "Platform"],
+			[20, 8, "Platform"],
+			[20, 9, "Platform"],
+			[20, 10, "Platform"],
+			[20, 11, "Platform"],
+			[20, 12, "Platform"],
+			[20, 13, "Platform"],
+			[20, 14, "Platform"],
+
+			[21, 3, "Platform"],
+			[22, 3, "Platform"],
+			[23, 3, "Platform"],
+			[24, 3, "Platform"],
+			[25, 3, "Platform"],
+			[26, 3, "Platform"],
+			[27, 3, "Platform"],
+			[28, 3, "Platform"],
+
+			[29, 6, "Platform"],
+			[28, 6, "Platform"],
+			[27, 6, "Platform"],
+			[26, 6, "Platform"],
+			[25, 6, "Platform"],
+			[24, 6, "Platform"],
+			[23, 6, "Platform"],
+			[22, 6, "Platform"],
+
+			[21, 9, "Platform"],
+			[22, 9, "Platform"],
+			[23, 9, "Platform"],
+			[24, 9, "Platform"],
+			[25, 9, "Platform"],
+			[26, 9, "Platform"],
+			[27, 9, "Platform"],
+			[28, 9, "Platform"],
+
+			[21, 15, "Platform"],
+			[22, 16, "Platform"],
+			[23, 16, "Platform"],
+			[24, 16, "Platform"],
+			[25, 16, "Platform"],
+			[26, 16, "Platform"],
+			[27, 16, "Platform"],
+			[28, 16, "Platform"],
+			[29, 15, "Platform"]
+		],
+
+		"foreground": [
+			[1, 7, "Platform"],
+			[1, 8, "Platform"]
+		]
+	},
+
+	"items": [
+		[0, 12, "Gem"],
+		[16, 7, "Gem"],
+		[19, 1, "Gem"],
+
+		[22, 2, "Gem"],
+		[24, 2, "Gem"],
+		[26, 2, "Gem"],
+
+		[23, 5, "Gem"],
+		[24, 5, "Gem"],
+		[25, 5, "Gem"],
+		[26, 5, "Gem"],
+		[27, 5, "Gem"]
+	],
+
+	"enemies": [
+		[7, 16, "PlatformEnemy"],
+		[13, 17, "BouncingEnemy"],
+		[15, 7, "BasicEnemy"],
+		[19, 11, "BasicEnemy"],
+
+		[21, 12, "BouncingEnemy"],
+		[22, 12, "BasicEnemy"],
+		[23, 12, "BouncingEnemy"],
+		[24, 12, "BasicEnemy"],
+		[25, 12, "BouncingEnemy"],
+		[26, 12, "BasicEnemy"],
+		[27, 12, "BasicEnemy"],
+		[28, 12, "BouncingEnemy"],
+		[29, 12, "BasicEnemy"]
+	]
+}

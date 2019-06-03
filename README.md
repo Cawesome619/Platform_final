@@ -34,3 +34,6 @@ And of course there has to be some sort of reward item that you can collect
 
 There are gems in the world that award points that go with your score.
 There are also powerups that give you extra speed until you get hit by an enemy.
+
+
+To Download the Game Click [Here](https://github.com/Cawesome619/Platform_final/releases/tag/v0.7)
